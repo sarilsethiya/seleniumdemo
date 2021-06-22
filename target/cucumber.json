@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login as an abbvie employee",
+        "description": "",
+        "id": "validate-adming-functionality;login-as-an-abbvie-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7535515602,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Home Page website",
+            "match": {
+              "location": "AbbEmpLoginPageSteps.user_navigates_to_Home_Page_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210583554,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User selects user as abbvie employee",
+            "match": {
+              "location": "AbbEmpLoginPageSteps.user_selects_user_as_abbvie_employee()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7533342028,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Enter button",
+            "match": {
+              "location": "AbbEmpLoginPageSteps.user_clicks_on_Enter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288740084,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter Username",
+            "match": {
+              "location": "AbbEmpLoginPageSteps.user_enter_Username_as()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233158077,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter Password",
+            "match": {
+              "location": "AbbEmpLoginPageSteps.user_enter_Password_as()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8657742878,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on SignIn button",
+            "match": {
+              "location": "AbbEmpLoginPageSteps.user_clicks_on_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212150097,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see message HEALTHCARE PROFESSIONALS, GET THE ANSWERS YOU ARE SEARCHING FOR HERE",
+            "match": {
+              "location": "AbbEmpLoginPageSteps.user_should_see_message_HEALTHCARE_PROFESSIONALS_GET_THE_ANSWERS_YOU_ARE_SEARCHING_FOR_HERE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Admin Panel",
+        "description": "",
+        "id": "validate-adming-functionality;admin-panel;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 209927069,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on admin panel",
+            "match": {
+              "location": "AdminPageSteps.User_clicks_on_admin_panel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8123370547,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on manage products and peform all the actions based on \"India\" and \"XYZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 68
+                },
+                {
+                  "val": "XYZ",
+                  "offset": 80
+                }
+              ],
+              "location": "AdminPageSteps.User_clicks_on_manage_products_and_peform_all_the_actions(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8928708433,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on manage indications and peform all the actions based on \"India\" and \"ABBV-181\" and \"Angina\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 71
+                },
+                {
+                  "val": "ABBV-181",
+                  "offset": 83
+                },
+                {
+                  "val": "Angina",
+                  "offset": 98
+                }
+              ],
+              "location": "AdminPageSteps.User_clicks_on_manage_indications_and_peform_all_the_actions(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130539510,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on manage search AD groups and peform all the actions based on \"AD_Dummy_Group\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AD_Dummy_Group",
+                  "offset": 76
+                }
+              ],
+              "location": "AdminPageSteps.User_clicks_on_manage_search_AD_groups_and_peform_all_the_actions(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7762415260,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Add products and peform all the actions based on \"India\" and \"123\" and \"MadeInIndia\" and \"M123\" and \"V123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 65
+                },
+                {
+                  "val": "123",
+                  "offset": 77
+                },
+                {
+                  "val": "MadeInIndia",
+                  "offset": 87
+                },
+                {
+                  "val": "M123",
+                  "offset": 105
+                },
+                {
+                  "val": "V123",
+                  "offset": 116
+                }
+              ],
+              "location": "AdminPageSteps.User_clicks_on_Add_products_and_peform_all_the_actions(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Adming functionality",
+    "description": "",
+    "id": "validate-adming-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/mwp/abbmi/resources/features/adminFunctionality.feature"
+  }
+]
